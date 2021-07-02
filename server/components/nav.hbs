@@ -1,0 +1,147 @@
+<!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- logo  -->
+          <a class="navbar-brand logo" href="/">Sanskar Vidya Bhavan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- logo ends here  -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- nav tabs  -->
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About US</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="academics" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academics
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/academics/ceremony">Ceremony</a></li>
+                  <li><a class="dropdown-item" href="/academics/department">Departments</a></li>
+                  <li><a class="dropdown-item" href="/academics/Methodology">Methodology</a></li>
+                  <li><a class="dropdown-item" href="#">Examination</a></li>
+                  <li><a class="dropdown-item" href="#">Result</a></li>
+                  <li><a class="dropdown-item" href="#">Facility</a></li>
+                  <li><a class="dropdown-item text-capitalize" href="#">Parent teacher meeting</a></li>
+                </ul></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Beyond Academics
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Achievements
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Transfer Certi</a>
+              </li>
+            </ul>
+            <!-- nav tabs ends here  -->
+                   <!-- contact button with Modal  -->
+        <button class="btn btn-info text-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button>
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact US</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+            <!-- contact form in modal body  -->
+            <form class="row g-3 needs-validation" novalidate action="/" method="post">
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Aarav" required name="name">
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Email*</label>
+                  <input type="text" class="form-control" id="validationCustom03" required name="email">
+                  <div class="invalid-feedback">
+                    Please provide a valid Email
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="validationCustom05" name="message">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+              <!-- contact forms ends here  -->
+        </div>
+        <div class="modal-footer">
+            <!-- button for closing  -->
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+            <!-- contact buttons ends here  -->
+          </div>
+        </div>
+
+      </nav>
+
+        <!-- navbar ends here  -->
