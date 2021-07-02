@@ -41,7 +41,7 @@ app.post('/',async(req,res)=>{
 
 // entry point of about 
 app.get('/about',(req,res) => {
-    res.render('about/about.hbs')
+    res.render('server/views/about/about.hbs')
 })
 
 // mission page of about
